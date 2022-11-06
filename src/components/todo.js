@@ -13,7 +13,7 @@ async function remove(id) {
 
 export default function Todo({ todo, setTodos }) {
   return (
-    <div>
+    <div className="todo-item">
       <input
         type="checkbox"
         onChange={(e) => {

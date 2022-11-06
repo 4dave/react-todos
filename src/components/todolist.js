@@ -14,7 +14,7 @@ const TodoList = () => {
   }, [])
 
   return (
-    <div>
+    <div className="todo-list">
       <AddTodo setTodos={setTodos} />
       <ul>
         {todos.map((todo) => {
